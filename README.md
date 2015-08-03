@@ -7,7 +7,7 @@
 
 A base example [http://jsfiddle.net/eclectic_boy/4Lw2semj/](http://jsfiddle.net/eclectic_boy/4Lw2semj/)
 
-A more complex example [http://jsfiddle.net/eclectic_boy/au2344xh/](http://jsfiddle.net/eclectic_boy/au2344xh/)
+A more complex example [http://jsfiddle.net/eclectic_boy/u2x524a3/](http://jsfiddle.net/eclectic_boy/u2x524a3/)
 
 Something pretty fancy [http://jsfiddle.net/eclectic_boy/fp00556w/](http://jsfiddle.net/eclectic_boy/fp00556w/)
 
