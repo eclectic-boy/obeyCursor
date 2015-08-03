@@ -5,11 +5,11 @@
 
 ##Examples
 
-A base example [http://jsfiddle.net/eclectic_boy/4Lw2semj/](http://jsfiddle.net/eclectic_boy/4Lw2semj/)
+A base example [http://codepen.io/eclectic_boy/pen/xGmBWN](http://codepen.io/eclectic_boy/pen/xGmBWN)
 
-A more complex example [http://jsfiddle.net/eclectic_boy/u2x524a3/](http://jsfiddle.net/eclectic_boy/u2x524a3/)
+A more complex example [http://codepen.io/eclectic_boy/pen/Jdwzvg](http://codepen.io/eclectic_boy/pen/Jdwzvg)
 
-Something pretty fancy [http://jsfiddle.net/eclectic_boy/fp00556w/](http://jsfiddle.net/eclectic_boy/fp00556w/)
+Something pretty oldstyle and fancy, "Cards"! [http://codepen.io/eclectic_boy/pen/qdLvxe](http://codepen.io/eclectic_boy/pen/qdLvxe)
 
 
 ##Requirements
@@ -40,12 +40,12 @@ An optional options object `opts` can be passed to the widget. Here follow the a
 ###`anchorX`
 Horizontal position of the *slaveObject* anchor point. The value is the shifting from the left border of the *slaveObject* expressed in percentage of the width. Default to `50`. Optional.
 
-[http://jsfiddle.net/eclectic_boy/au2344xh/](http://jsfiddle.net/eclectic_boy/au2344xh/)
+[http://codepen.io/eclectic_boy/pen/OVrqEm](http://codepen.io/eclectic_boy/pen/OVrqEm)
 
 ###`anchorY`
 Vertical position of the *slaveObject* anchor point. The value is the shifting from the top border of the *slaveObject* expressed in percentage of the height. Default to `50`. Optional.
 
-[http://jsfiddle.net/eclectic_boy/au2344xh/](http://jsfiddle.net/eclectic_boy/au2344xh/)
+[http://codepen.io/eclectic_boy/pen/OVrqEm](http://codepen.io/eclectic_boy/pen/OVrqEm)
 
 ###`step(me, position)`
 A function which is called at every step (i.e. every time the *slaveObject* moves). Optional.
@@ -65,7 +65,7 @@ function step(me, position) {
 }
 ```
 
-[http://jsfiddle.net/eclectic_boy/d0uc84sn/](http://jsfiddle.net/eclectic_boy/d0uc84sn/)
+[http://codepen.io/eclectic_boy/pen/yNGwEq](http://codepen.io/eclectic_boy/pen/yNGwEq)
 
 #Methods
 
