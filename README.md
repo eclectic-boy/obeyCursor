@@ -69,16 +69,39 @@ function step(me, position) {
 
 #Methods
 
-###`start`
+###`start()`
 
 enables the widget.
 ```
 $("#slave").obeyCursor("start");
 ```
 
-###`stop`
+###`stop()`
 
-disable the widget.
+disables the widget.
 ```
 $("#slave").obeyCursor("stop");
 ```
+
+###`get_anchorX_px()`
+
+returns the anchor point X in pixels.
+```
+var anchorX_px = $("#slave").obeyCursor("get_anchorX_px");
+```
+
+###`get_anchorY_px()`
+
+returns the anchor point Y in pixels.
+```
+var anchorY_px = $("#slave").obeyCursor("get_anchorY_px");
+```
+
+#Changelog
+
+###v1.1
+
+ - Added methods `get_anchorX_px` and `get_anchorY_px`.
+
+###v1.0
+First release

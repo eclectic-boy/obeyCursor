@@ -29,9 +29,7 @@
 				.appendTo("body")
 				.css({
 					"display": "block",
-					"position": "absolute",
-					"top": "0",
-					"left": "0",
+					"position": "absolute"
 				});
 
 			//converts transform origin from % to px
@@ -43,8 +41,8 @@
 			$(document).on("mousemove", function(event) {
 				if(me.options.isActive) {
 
-					var left = event.pageX - me.options.anchorX_px;
-					var top = event.pageY - me.options.anchorY_px;
+					var left = event.pageX - me.get_anchorX_px();
+					var top = event.pageY - me.get_anchorY_px();
 
 					
 					if(me.options.step) {
@@ -87,6 +85,14 @@
 
 		stop: function() {
 			this.options.isActive = false;
+		},
+
+		get_anchorX_px: function() {
+			return this.options.anchorX_px;
+		},
+
+		get_anchorY_px: function() {
+			return this.options.anchorY_px;
 		},
 	 
 	});
